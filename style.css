@@ -45,3 +45,18 @@ button {
   padding: 1rem;
   font-size: large;
 }
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--primary-color);
+  text-align: center;
+}
+footer h2 {
+  font-size: x-large;
+}
+footer p {
+  max-width: 600px;
+  margin: auto;
+}
