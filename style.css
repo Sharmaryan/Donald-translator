@@ -15,3 +15,33 @@ header h1 {
   font-size: 2rem;
   padding: 1rem;
 }
+section {
+  margin: auto;
+  padding: 1rem;
+  max-width: 600px;
+}
+textarea {
+  display: block;
+  width: 100%;
+  min-height: 20vh;
+  font-size: large;
+  margin-top: 2rem;
+}
+button {
+  background-color: var(--primary-color);
+  border: none;
+  margin: 1rem 0;
+  padding: 1rem 2rem;
+  font-size: large;
+  cursor: pointer;
+}
+
+#output {
+  border: 1px solid black;
+  width: 100%;
+  min-height: 10vh;
+  max-height: 20vh;
+  overflow: scroll;
+  padding: 1rem;
+  font-size: large;
+}
