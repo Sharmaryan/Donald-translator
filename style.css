@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #6366f1;
+}
+header {
+  background-color: var(--primary-color);
+  text-align: center;
+}
+header h1 {
+  font-size: 2rem;
+  padding: 1rem;
+}
