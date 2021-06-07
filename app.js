@@ -1,7 +1,7 @@
 let button = document.querySelector("#btn-translate");
 let textInput = document.querySelector("#text-input");
 let outputDiv = document.querySelector("#output");
-let serverURL = "https://api.funtranslations.com/translate/dolan.json";
+let serverURL = "https://api.funtranslations.com/translate/groot.json";
 
 function getTranslationURL(text) {
   return serverURL + "?" + "text=" + text;
