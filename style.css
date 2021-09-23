@@ -1,29 +1,40 @@
-@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,200&family=Caveat&family=Indie+Flower&family=Noto+Sans:ital,wght@1,400;1,700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Kalam", cursive;
-  font-weight: 300;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  text-transform: capitalize;
 }
 :root {
-  --primary-color: #7d555f;
+  --primary-color: #07b3f7;
+}
+body{
+  
+  background: url(https://wallpaperaccess.com/full/884535.jpg);
+  background-size: cover;
 }
 header {
-  background: var(--primary-color);
+ 
   text-align: center;
 }
 header h1 {
   font-size: 2rem;
   padding: 1rem;
+   color: var(--primary-color);
 }
 section {
   margin: auto;
   padding: 1rem;
   max-width: 600px;
+   color: var(--primary-color);
+  
+}
+#txt-input {
+  border: 1px solid var(--primary-color);
 }
 textarea {
-  padding: 1rem;
   display: block;
   width: 100%;
   min-height: 20vh;
@@ -32,14 +43,16 @@ textarea {
 }
 
 button {
-  background: var(--primary-color);
+  
   border: none;
   margin: 2rem 0;
   padding: 1rem 2rem;
   font-size: large;
+  color: var(--primary-color);
+  border-radius: 10px;
 }
 #output {
-  border: 1px solid black;
+  border: 1px solid var(--primary-color);
   width: 100%;
   min-height: 10vh;
   max-height: 20vh;
@@ -50,8 +63,10 @@ button {
 footer {
   width: 100%;
   padding: 1rem;
-  background-color: var(--primary-color);
+ 
   text-align: center;
+  color: var(--primary-color);
+
 }
 
 footer h2 {
