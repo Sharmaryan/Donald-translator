@@ -5,7 +5,7 @@ const showOutput = document.querySelector("#show-output");
 const url = "https://api.funtranslations.com/translate/pirate.json";
 
 function getTranslationURL(text) {
-  return url + '?' + 'text=' + text;
+  return `${url}?text=${text}`;
 }
 
 function errorHandling() {
