@@ -4,31 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>pirate translator</title>
     <link rel="stylesheet" href="style.css" />
+    <title>Pirates Translator</title>
   </head>
-
   <body>
-    <header>
-      <h1>pirate speaks</h1>
-    </header>
-    <section>
-      <textarea
-        id="txt-input"
-        placeholder="put your sentence in English here and we will convert it to pirate language"
-      ></textarea>
-      <button id="btn-translator">Translate to Pirates</button>
-      <div style="font-size: larger">Output will come here 👇</div>
-      <div id="output"></div>
-    </section>
+    <nav id="navbar">
+      <h1 class="heading">Pirates Translator</h1>
+    </nav>
+    
+      <main>
+        <textarea
+          id="text-translating"
+          placeholder="Enter your message to convert it in minions language"
+        ></textarea>
+        <button id="translate-btn">Translate</button>
+        <h4>output will be shown here 👇</h4>
+        <div id="show-output"></div>
+      </main>
+
     <footer>
-      
-        <h2>about</h2>
-        <p>
-          Are you a fan of pirates? Do you know they have their own language, this translator will convert english to pirates language.
+      <div id="footer-content">
+        <h3 id="about">about</h3>
+        <p id="footer-para">
+         Are You A Fan Of Pirates? Do You Know They Have Their Own Language, This Translator Will Convert English To Pirates Language.
         </p>
       </div>
-
-    <script src="app.js"></script>
+    </footer>
+    <script src="index.js"></script>
   </body>
 </html>
