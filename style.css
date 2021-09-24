@@ -1,79 +1,72 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,200&family=Caveat&family=Indie+Flower&family=Noto+Sans:ital,wght@1,400;1,700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Noto Sans", sans-serif;
-  font-weight: 600;
+}
+:root{
+    --primary-color: rgb(54, 243, 227);
+    
+}
+body {
+  font-style: italic;
+  text-align: center;
   text-transform: capitalize;
-}
-:root {
-  --primary-color: #07b3f7;
-}
-body{
-  
-  background: url(https://wallpaperaccess.com/full/884535.jpg);
+  background: url(https://th.bing.com/th/id/R.ab393501bfbcddf328cb4d296eb76d0c?rik=VnYsRJf0mDcBPg&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f4%2f8%2fa%2f640385.jpg&ehk=xpxJiiQ9eRDSoAmmrZ36uKRWAHvCFQIh6FUzM8Rn6Fk%3d&risl=&pid=ImgRaw&r=0);
   background-size: cover;
 }
-header {
- 
-  text-align: center;
-}
-header h1 {
-  font-size: 2rem;
-  padding: 1rem;
-   color: var(--primary-color);
-}
-section {
-  margin: auto;
-  padding: 1rem;
-  max-width: 600px;
-   color: var(--primary-color);
+#navbar {
+  height: 20vh;
   
 }
-#txt-input {
-  border: 1px solid var(--primary-color);
+.heading {
+  padding-top: 2rem;
+   color: var(--primary-color);
 }
-textarea {
+main {
+  max-width: 350px;
+  margin: auto;
+}
+#text-translating,
+#show-output {
+  margin: 1rem 0;
   display: block;
   width: 100%;
-  min-height: 20vh;
-  font-size: large;
-  margin-top: 2rem;
+  border: 2px solid var(--primary-color);
+  overflow: scroll;
+}
+#text-translating {
+  min-height: 23vh;
+  overflow: scroll;
+}
+button {
+  padding: 0.6rem 2rem;
+  margin: 1rem 0;
+  font-size: 1.3rem;
+  background-color: #232428;
+  border: none;
+   color: var(--primary-color);
 }
 
-button {
-  
-  border: none;
-  margin: 2rem 0;
-  padding: 1rem 2rem;
-  font-size: large;
+#show-output {
+  min-height: 15vh;
+  text-align: left;
   color: var(--primary-color);
-  border-radius: 10px;
 }
-#output {
-  border: 1px solid var(--primary-color);
-  width: 100%;
-  min-height: 10vh;
-  max-height: 20vh;
-  overflow: scroll;
-  padding: 1rem;
-  font-size: large;
+h4{
+     color: var(--primary-color);
 }
 footer {
-  width: 100%;
-  padding: 1rem;
- 
-  text-align: center;
-  color: var(--primary-color);
-
+   color: var(--primary-color);
 }
-
-footer h2 {
-  font-size: x-large;
-}
-
-footer p {
-  max-width: 600px;
+#footer-content {
+  max-width: 380px;
   margin: auto;
+}
+#about {
+  padding: 1.3rem 0;
+}
+#footer-para {
+  padding-bottom: 1rem;
+  letter-spacing: 1px;
+  text-align: justify;
 }
