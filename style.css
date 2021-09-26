@@ -36,7 +36,7 @@ main {
 }
 #text-translating {
   min-height: 23vh;
-  overflow: scroll;
+ 
 }
 button {
   padding: 0.6rem 2rem;
@@ -49,6 +49,7 @@ button {
 
 #show-output {
   min-height: 15vh;
+  max-height: 25vh;
   text-align: left;
   color: var(--primary-color);
 }
@@ -69,4 +70,9 @@ footer {
   padding-bottom: 1rem;
   letter-spacing: 1px;
   text-align: justify;
+}
+footer a{
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    padding: 0 .5rem;
 }
